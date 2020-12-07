@@ -39,7 +39,7 @@ public class Main extends Application {
             System.out.println("This pet is a: " + pet.getName() +"\n");
         }
     }
-    private static void foodDecorator(){
+    private static void foodDecorator() {
         Chicken chicken = new Chicken();
         Biscuit biscuit = new Biscuit(chicken);
 
@@ -48,11 +48,11 @@ public class Main extends Application {
 
         Hay hay = new Hay();
         Carrot carrot = new Carrot(hay);
-
-
-        System.out.println(biscuit.getDescription() + " " + biscuit.price() );
-        System.out.println(cheese.getDescription() + " " + cheese.price() );
-        System.out.println(carrot.getDescription() + " " + carrot.price() );
+        System.out.println("Dogs can have: "+ biscuit.getDescription() + " for $" + biscuit.price() );
+        System.out.println("Cats can have: "+ cheese.getDescription() + " for $" + cheese.price() );
+        System.out.println("Rabbit can have: "+ carrot.getDescription() + " for $" + carrot.price() );
 
     }
+
+
 }
