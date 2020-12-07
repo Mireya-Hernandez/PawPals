@@ -28,7 +28,7 @@
                   <Font name="Consolas Italic" size="30.0" />
                </font>
             </Label>
-            <TextArea layoutX="63.0" layoutY="97.0" prefHeight="107.0" prefWidth="200.0" text="Match Pets Based on there Traits.&#10;Exsit the Window.&#10;&#10;Look at the Console! " />
+            <TextArea layoutX="63.0" layoutY="97.0" prefHeight="107.0" prefWidth="200.0" text="Matches Pets Based on there Traits.&#10;Exsit the Window.&#10;&#10;Look at the Console! " />
             <ImageView fitHeight="49.0" fitWidth="58.0" layoutX="5.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Image/Dog%20paw.png" />

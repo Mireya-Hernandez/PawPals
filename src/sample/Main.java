@@ -23,6 +23,7 @@ public class Main extends Application {
         pets = new ArrayList<>();
         matchPets();
         printPetStrategies();
+        foodDecorator();
     }
     private static void matchPets() {
         System.out.println("Now matching pets...\n");
@@ -37,5 +38,21 @@ public class Main extends Application {
             pet.sleepHabit();
             System.out.println("This pet is a: " + pet.getName() +"\n");
         }
+    }
+    private static void foodDecorator(){
+        Chicken chicken = new Chicken();
+        Biscuit biscuit = new Biscuit(chicken);
+
+        Salmon salmon = new Salmon();
+        Cheese cheese = new Cheese(salmon);
+
+        Hay hay = new Hay();
+        Carrot carrot = new Carrot(hay);
+
+
+        System.out.println(biscuit.getDescription() + " " + biscuit.price() );
+        System.out.println(cheese.getDescription() + " " + cheese.price() );
+        System.out.println(carrot.getDescription() + " " + carrot.price() );
+
     }
 }

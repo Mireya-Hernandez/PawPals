@@ -1,7 +1,7 @@
 package sample;
 
 public abstract class Pet {
-  private String name;
+  public String name;
   private SoundProduceStrategy soundProduceStrategy;
   private DietConsumeStrategy dietConsumeStrategy;
   private SleepHabitStrategy sleepHabitStrategy;
