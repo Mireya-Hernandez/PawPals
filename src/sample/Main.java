@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("PawPals Message");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
@@ -20,13 +20,30 @@ public class Main extends Application {
     private static ArrayList<Pet> pets;
     public static void main(String[] args) {
         launch(args);
+
+        MessageUserOne userOne = new MessageUserOne();
+        MessageUserTwo userTwo = new MessageUserTwo();
+        MessageUserThree userThree = new MessageUserThree();
+
+        MessageNotice notice = new MessageNotice();
+
+        notice.addObserver(userOne);
+        notice.addObserver(userTwo);
+
+        notice.notifyObserver(new Message("Match Found"));   //UserOne and UserTwo will receive the update
+
+        notice.removeObserver(userOne);
+        notice.addObserver(userThree);
+
+        notice.notifyObserver(new Message("Matched")); //s2 and s3 will receive the update
+
         pets = new ArrayList<>();
         matchPets();
         printPetStrategies();
         foodDecorator();
     }
     private static void matchPets() {
-        System.out.println("Now matching pets...\n");
+        System.out.println("\nNow matching pets...\n");
         pets.add(new Dog());
         pets.add(new Cat());
         pets.add(new Rabbit());

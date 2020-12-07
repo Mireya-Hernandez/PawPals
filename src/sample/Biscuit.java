@@ -6,7 +6,7 @@ public class Biscuit extends TreatsDecorator {
   }
   @Override
   public String getDescription() {
-    return food.getDescription() + ", Biscuit";
+    return food.getDescription() + " and Biscuit";
   }
 
   @Override

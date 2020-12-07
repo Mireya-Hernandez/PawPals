@@ -6,7 +6,7 @@ public class Cheese extends TreatsDecorator {
   }
   @Override
   public String getDescription() {
-    return food.getDescription() + ", Cheese";
+    return food.getDescription() + " and Cheese";
   }
 
   @Override

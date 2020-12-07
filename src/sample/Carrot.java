@@ -6,7 +6,7 @@ public class Carrot extends TreatsDecorator {
   }
   @Override
   public String getDescription() {
-    return food.getDescription() + ", Carrots";
+    return food.getDescription() + " and Carrots";
   }
 
   @Override
