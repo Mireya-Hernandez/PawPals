@@ -5,7 +5,7 @@ public class Dog extends Pet {
     super(
       "Dog",
        new Bark(),
-       new Ominivore(),
+       new Omnivore(),
        new NightTime());
     }
   }

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
@@ -39,6 +40,7 @@
                   <Image url="@../Image/Dog%20paw.png" />
                </image>
             </ImageView>
+            <Button fx:id="exsitButton" layoutX="221.0" layoutY="225.0" mnemonicParsing="false" onAction="#exsitPage" text="Exist" textFill="#a427e3" />
          </children>
       </AnchorPane>
    </children>

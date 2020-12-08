@@ -1,5 +1,6 @@
 package sample;
 
+
 public class Bark implements SoundProduceStrategy {
   @Override
   public void soundProduce(){

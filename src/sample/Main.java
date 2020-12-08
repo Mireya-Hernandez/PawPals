@@ -35,7 +35,7 @@ public class Main extends Application {
         notice.removeObserver(userOne);
         notice.addObserver(userThree);
 
-        notice.notifyObserver(new Message("Matched")); //s2 and s3 will receive the update
+        notice.notifyObserver(new Message("Matched")); //UserTwo and UserThree will receive the next update
 
         pets = new ArrayList<>();
         matchPets();
