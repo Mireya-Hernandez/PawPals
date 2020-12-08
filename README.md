@@ -7,8 +7,6 @@ Software description: In my application, I utilize the strategy design pattern, 
 # Diagrams
 ![Class Diagram](https://github.com/Mireya-Hernandez/PawPals/blob/master/src/Image/Diagram.JPG)
 
-![Database Diagram](https://github.com/Mireya-Hernandez/MediaPlayerProduction2/blob/master/Database%20Tables.JPG)
-
 # Built With
 * Intellij IDE
 * SceneBuilder
