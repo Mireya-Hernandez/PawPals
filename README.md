@@ -3,7 +3,7 @@ This project, an application developed using IntelliJ written in Java programmin
 # Project: Implementing Design Patterns in Source Code
 Software description: In my application, I utilize the strategy design pattern, decorator design pattern, and observer design pattern.  The program was developed by Mireya Hernandez for an indiviual class project, Design Pattern & Refactoring, in college. 
 # Demonstration
-![Demo](https://github.com/Mireya-Hernandez/MediaPlayerProduction2/blob/master/ySLQdiTiN8.gif)
+![Demo](https://github.com/Mireya-Hernandez/PawPals/blob/master/Qlg63eosPd.gif)
 # Documentation
 https://mireya-hernandez.github.io/MediaPlayerProduction2/ 
 Note: Unable to get document folder functioning.
